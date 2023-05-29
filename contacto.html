@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+    <meta lang="en>">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Sevillana&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/b9ef32bd36.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <title>Indumentaria California</title>
+</head>
+
+<body>
+    <header>
+        <div class="textoPrincipal">
+            Ventas por mayor y menor -- Envíos a todo el pais -- Atención de lunes a sabados de 10hs a 19hs
+        </div>
+    </header>
+    <nav>
+        <div class="navBar container-fluid">
+            <ul>
+                <a href="">
+                    <li><img src="/imagenes/logo California (3).png" alt=""></li>
+                </a>
+                <a href="/index.html">
+                    <li>PRODUCTOS</li>
+                </a>
+                <a href="/contacto.html">
+                    <li>CONTACTO</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <div class="contact_form">
+        <div class="formulario">
+            <h1>Formulario de contacto</h1>
+            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+            <form action="submeter-formulario.php" method="post">
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+                <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+                <p>
+                    <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                        placeholder="Escribe un asunto">
+                </p>
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+                </button>
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="contenedorFooter">
+            <div class="contenedorTarjetas">
+                <h3>MEDIOS DE PAGO</h3>
+                <img src="/imagenes/img tarjetas/amex@2x.png" alt="">
+                <img src="/imagenes/img tarjetas/banelco@2x.png" alt="">
+                <img src="/imagenes/img tarjetas/cabal@2x.png" alt="">
+                <img src="/imagenes/img tarjetas/diners@2x.png" alt="">
+                <img src="/imagenes/img tarjetas/mastercard@2x.png" alt="">
+                <img src="/imagenes/img tarjetas/mercadopago@2x.png" alt="">
+                <img src="/imagenes/img tarjetas/rapipago@2x.png" alt="">
+                <img src="/imagenes/img tarjetas/tarjeta-naranja@2x.png" alt="">
+                <img src="/imagenes/img tarjetas/tarjeta-shopping@2x.png" alt="">
+                <img src="/imagenes/img tarjetas/visa@2x.png" alt="">
+            </div>
+            <div>
+                <p>© copyright ICALIFORNIA - 2023</p>
+            </div>
+            <div class="contenedorContacto">
+                <h3>CONTACTANOS</h3>
+                <i class="fas fa-phone-alt"></i>
+                <p>+54 11 3242-4232</p>
+                <i class="fa-solid fa-envelope"></i>
+                <p>consultas@incalifornia.com</p>
+                <i class="fa-solid fa-route"></i>
+                <p>Calle falsa 123 - Sprinfield - Federal</p>
+            </div>
+        </div>
+    </footer>
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
