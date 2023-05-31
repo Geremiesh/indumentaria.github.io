@@ -51,7 +51,6 @@ body {
   height: 400px;
   filter: drop-shadow(2px 3px 3px black);
   -webkit-filter: drop-shadow(3px 3px 5px black);
-  padding: 20px;
 }
 .producto h3 {
   font-size: 13px;

@@ -18,7 +18,9 @@ body {
 
 // NAVBAR
 .navBar {
+
     ul {
+
         list-style: none;
         display: flex;
         flex-wrap: wrap;
@@ -60,7 +62,6 @@ body {
         height: 400px;
         filter: drop-shadow(2px 3px 3px black);
         -webkit-filter: drop-shadow(3px 3px 5px black);
-        padding: 20px;
     }
 
     h3 {
@@ -134,7 +135,8 @@ body {
     }
 }
 
-/ FOOTER .contenedorFooter {
+// FOOTER
+.contenedorFooter {
     display: flex;
     justify-content: space-around;
     text-align: center;
