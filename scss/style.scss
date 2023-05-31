@@ -7,6 +7,7 @@ body {
     font-family: "Manrope", sans-serif;
 }
 
+// TEXTO PRINCIPAL
 .textoPrincipal {
     text-align: center;
     background-color: #000000;
@@ -15,6 +16,7 @@ body {
     font-size: 13px;
 }
 
+// NAVBAR
 .navBar {
     ul {
         list-style: none;
@@ -39,14 +41,16 @@ body {
     }
 }
 
+// CARRUSEL
 .carrusel {
     margin-bottom: 30px;
 }
 
+// PRODUCTOS
 .productos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 16px;
+    gap: 15px;
 }
 
 .producto {
@@ -69,6 +73,7 @@ body {
     }
 }
 
+// FORMULARIO
 .form {
     p {
         font-weight: bold;
@@ -93,6 +98,7 @@ body {
     }
 }
 
+// TEXTO REDES
 .redeSociales {
     padding: 30px;
 
@@ -128,7 +134,7 @@ body {
     }
 }
 
-.contenedorFooter {
+/ FOOTER .contenedorFooter {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -147,6 +153,7 @@ body {
     }
 }
 
+// FORMULARIO DE CONTACTO
 .contact_form {
     width: 460px;
     height: auto;
