@@ -19,13 +19,17 @@ body {
   display: flex;
   justify-content: end;
   padding: 4px;
+  margin-right: 40px;
 }
 .inicioSesion p {
-  margin: 10px;
+  margin-left: 20px;
   font-size: 13px;
   font-weight: bold;
 }
 
+.navBar {
+  max-height: 150px;
+}
 .navBar ul {
   list-style: none;
   display: flex;
@@ -42,11 +46,44 @@ body {
   padding: 10px;
 }
 .navBar ul img {
-  width: 120px;
+  width: 150px;
 }
 
 .carrusel {
   margin-bottom: 30px;
+}
+
+.destacados {
+  text-align: center;
+}
+.destacados p {
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+}
+.destacados p::after, .destacados p::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  background-color: currentcolor;
+  top: 55%;
+  animation: animateLine 2s;
+}
+.destacados p::after {
+  left: -140px;
+}
+.destacados p::before {
+  right: -140px;
+}
+@keyframes animateLine {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 .productos {
@@ -65,11 +102,11 @@ body {
   padding: 13px;
 }
 .producto h3 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
 }
 .producto p {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .form {
