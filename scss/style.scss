@@ -19,21 +19,17 @@ body {
 .inicioSesion {
     display: flex;
     justify-content: end;
-    padding: 4px;
-    margin-right: 40px;
+    padding: 13px;
+    cursor: pointer;
 
     p {
         margin-left: 20px;
-        font-size: 13px;
-        font-weight: bold;
+        font-size: 14px;
     }
 }
 
 // NAVBAR
 .navBar {
-    max-height: 150px;
-
-
     ul {
         list-style: none;
         display: flex;
@@ -52,7 +48,7 @@ body {
         }
 
         img {
-            width: 150px;
+            height: 100px;
         }
     }
 }
@@ -75,7 +71,7 @@ body {
 
         &::after,
         &::before {
-            content: '';
+            content: "";
             position: absolute;
             width: 120px;
             height: 2px;
@@ -102,7 +98,6 @@ body {
             transform: scale(1);
         }
     }
-
 }
 
 .productos {

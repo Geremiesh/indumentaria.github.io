@@ -18,18 +18,14 @@ body {
 .inicioSesion {
   display: flex;
   justify-content: end;
-  padding: 4px;
-  margin-right: 40px;
+  padding: 13px;
+  cursor: pointer;
 }
 .inicioSesion p {
   margin-left: 20px;
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 14px;
 }
 
-.navBar {
-  max-height: 150px;
-}
 .navBar ul {
   list-style: none;
   display: flex;
@@ -46,7 +42,7 @@ body {
   padding: 10px;
 }
 .navBar ul img {
-  width: 150px;
+  height: 100px;
 }
 
 .carrusel {
