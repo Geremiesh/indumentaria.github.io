@@ -90,6 +90,7 @@ body {
 
 .producto {
   text-align: center;
+  align-items: center;
 }
 .producto img {
   height: 400px;
@@ -100,9 +101,17 @@ body {
 .producto h3 {
   font-size: 15px;
   font-weight: bold;
+  height: 40px;
 }
 .producto p {
   font-size: 13px;
+}
+.producto button {
+  padding: 8px;
+  background-color: #3D3C42;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .form {

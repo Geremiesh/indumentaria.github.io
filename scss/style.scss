@@ -108,6 +108,7 @@ body {
 
 .producto {
     text-align: center;
+    align-items: center;
 
     img {
         height: 400px;
@@ -119,10 +120,19 @@ body {
     h3 {
         font-size: 15px;
         font-weight: bold;
+        height: 40px;
     }
 
     p {
         font-size: 13px;
+    }
+
+    button {
+        padding: 8px;
+        background-color: #3D3C42;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
     }
 }
 
